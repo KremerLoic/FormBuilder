@@ -20,7 +20,6 @@
     <div class="text-center">
         <h2>Formulaires</h2>
     </div>
-
     <div class="row">
         <div class=" col-md-3 offset-1">
             <div class="formFields">
@@ -28,25 +27,21 @@
                 <ul id="sortable1" class="connectedSortable">
                     <li class="ui-state-default">Textfield</li>
                     <li class="ui-state-default">Textarea</li>
+                    <li class="ui-state-default">Number</li>
                     <li class="ui-state-default">Email</li>
                     <li class="ui-state-default">Password</li>
                     <li class="ui-state-default">Checkbox</li>
                     <li class="ui-state-default">Select</li>
                     <li class="ui-state-default">Radio</li>
                 </ul>
-
             </div>
         </div>
-    <div class="col-md-3 offset-4">
-        <h4>Form Builder</h4>
-            <ul id="sortable2" class="connectedSortable">
-            </ul>
-        </ul>
-
+        <div id="formContainer" class="col-md-7 offset-1">
+            <h4>Form Builder</h4>
+            <form id="formBuilder">
+            </form>
         </div>
     </div>
-
-</div>
 </div>
 
 
