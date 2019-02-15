@@ -13,8 +13,6 @@
 
     <title>Form Manager</title>
 </head>
-
-
 <body class="bg-light">
 <div class="container">
     <div class="text-center">
@@ -35,16 +33,28 @@
                     <li class="ui-state-default">Radio</li>
                 </ul>
             </div>
+            <div class="inputModify inactive">
+                <h4> Modifications de l'input</h4>
+                <h6>Name</h6>
+                <input type="text" id="modifyNameInput" class="modifyInput">
+                <h6>Class</h6>
+                <input type="text" id="modifyClassInput" class="modifyInput">
+                <h6>ID</h6>
+                <input type="text" id="modifyIDInput" class="modifyInput">
+                <h6>Placeholder</h6>
+                <input type="text" id="modifyPlaceholderInput" class="modifyInput">
+
+            </div>
         </div>
         <div id="formContainer" class="col-md-7 offset-1">
             <h4>Form Builder</h4>
+            <h4 class="error"></h4>
             <form id="formBuilder">
             </form>
         </div>
     </div>
 </div>
-
-
+</body>
 <footer class="my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1">&copy; 2017-2018 Company Name</p>
     <ul class="list-inline">
