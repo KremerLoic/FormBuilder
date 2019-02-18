@@ -22,14 +22,20 @@ li {
     min-height: 30px;
 }
 
-.form-group , .form-check {
+.form-group , .form-check , .form-radio {
     display: inline-block;
     max-width: 100%;
 }
 
-.form-check{
+ .form-radio{
     width:20%;
 }
+
+ .form-check{
+     width:25%;
+ }
+
+
 
 .active {
     visibility: visible;
@@ -39,7 +45,7 @@ li {
     visibility: hidden;
 }
 
-.selected {
+.selected,.titleSelected {
     color: green;
     font-weight:bold;
 

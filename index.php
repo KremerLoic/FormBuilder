@@ -23,6 +23,7 @@
             <div class="formFields">
                 <h4>Champs de formulaire</h4>
                 <ul id="sortable1" class="connectedSortable">
+                    <li class="ui-state-default">Title</li>
                     <li class="ui-state-default">Textfield</li>
                     <li class="ui-state-default">Textarea</li>
                     <li class="ui-state-default">Number</li>
@@ -33,8 +34,19 @@
                     <li class="ui-state-default">Radio</li>
                 </ul>
             </div>
+
+            <div class="titleModify inactive">
+                <h4> Modifications du titre</h4>
+                <h6>Titre</h6>
+                <input type="text" id="modifyTitle" class="modifyTitle">
+            </div>
             <div class="inputModify inactive">
                 <h4> Modifications de l'input</h4>
+                <h6>Option</h6>
+                <input type="text" id="addOptionInput" class="addOption">
+                <button type='button' id="addOptionButton" class="add">Add</button>
+                <h6>Label</h6>
+                <input type="text" id="modifyLabelInput" class="modifyLabel">
                 <h6>Name</h6>
                 <input type="text" id="modifyNameInput" class="modifyInput">
                 <h6>Class</h6>
@@ -43,7 +55,6 @@
                 <input type="text" id="modifyIDInput" class="modifyInput">
                 <h6>Placeholder</h6>
                 <input type="text" id="modifyPlaceholderInput" class="modifyInput">
-
             </div>
         </div>
         <div id="formContainer" class="col-md-7 offset-1">
@@ -51,6 +62,7 @@
             <h4 class="error"></h4>
             <form id="formBuilder">
             </form>
+            <button type="button" class="convertJSONButton" id="jsonButton">JSON</button>
         </div>
     </div>
 </div>
